@@ -72,6 +72,7 @@ def timeEncode(time):
             strtime = str(time % 60) + "小时"+strtime
     return strtime
 
+#解码日期
 def dateDecode(dateStr):
     dateStrlist=dateStr.split(' ')
     dayStr=dateStrlist[0]
@@ -105,8 +106,6 @@ def printout():
 def dataVisualization(userinfo):
     plt.plot(userinfo.day_intervel, 'k')
     plt.plot(userinfo.day_intervel, 'bo')
-    # 添加x轴标题
-    # plt.xticks((0,11) , (u'0',u'2',u'4',u'6',u'8',u'10',u'12',u'14',u'16',u'18',u'20',u'22',u'24'))
     plt.xlabel(u'日          期')
     plt.ylabel(u'通话次数')
     plt.title(u'每日通话分析')
