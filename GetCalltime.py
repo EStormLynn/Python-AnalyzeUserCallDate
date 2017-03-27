@@ -120,8 +120,3 @@ behavior_analysis(datalist)
 
 printout()
 dataVisualization(user)
-
-
-
-
-
