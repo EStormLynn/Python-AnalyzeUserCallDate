@@ -9,4 +9,4 @@
 #### 使用到的模块：    
 * import xlrd             # 读取用户通话数据
 * import matplotlib        # 数据可视化
-* UserDataInfo 		      # 用户行为信息类
+* import UserDataInfo	      # 用户行为信息类
